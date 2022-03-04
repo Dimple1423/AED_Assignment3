@@ -18,7 +18,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
     public MainJFrame() {
         initComponents();
-        setSize(900, 700);
+        setSize(930, 650);
     }
 
     /**
@@ -39,10 +39,12 @@ public class MainJFrame extends javax.swing.JFrame {
         userProcessContainer = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Uber Management");
+        setTitle("Professor As A Service");
 
         splitPane.setDividerLocation(180);
         splitPane.setOpaque(false);
+
+        controlPanel.setBackground(new java.awt.Color(51, 0, 51));
 
         btnAdmin.setText("Admin");
         btnAdmin.addActionListener(new java.awt.event.ActionListener() {
@@ -107,6 +109,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         splitPane.setLeftComponent(controlPanel);
 
+        userProcessContainer.setBackground(new java.awt.Color(255, 255, 255));
         userProcessContainer.setLayout(new java.awt.CardLayout());
         splitPane.setRightComponent(userProcessContainer);
 

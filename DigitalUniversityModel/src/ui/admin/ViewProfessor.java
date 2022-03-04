@@ -5,6 +5,7 @@
 package ui.admin;
 
 import java.awt.CardLayout;
+import java.awt.Color;
 import javax.swing.JPanel;
 
 /**
@@ -50,32 +51,48 @@ public class ViewProfessor extends javax.swing.JPanel {
         txtModel1 = new javax.swing.JTextField();
         lblModel1 = new javax.swing.JLabel();
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
-        jLabel1.setText("Professor Details");
+        setBackground(new java.awt.Color(255, 255, 255));
+        setForeground(new java.awt.Color(51, 0, 51));
 
+        jLabel1.setBackground(new java.awt.Color(51, 0, 51));
+        jLabel1.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Professor Details");
+        jLabel1.setOpaque(true);
+
+        btnBack.setBackground(new java.awt.Color(51, 0, 51));
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("<< Back");
+        btnBack.setBorderPainted(false);
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
             }
         });
 
-        lblManuYear.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblManuYear.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblManuYear.setForeground(new java.awt.Color(51, 0, 51));
         lblManuYear.setText("Last Name:");
 
-        lblModel.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblModel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblModel.setForeground(new java.awt.Color(51, 0, 51));
         lblModel.setText("First Name :");
 
-        lblSeats.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblSeats.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblSeats.setForeground(new java.awt.Color(51, 0, 51));
         lblSeats.setText("Email:");
 
-        lblSeats1.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblSeats1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblSeats1.setForeground(new java.awt.Color(51, 0, 51));
         lblSeats1.setText("Reputation Index:");
 
-        lblSeats2.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblSeats2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblSeats2.setForeground(new java.awt.Color(51, 0, 51));
         lblSeats2.setText("Subscription Paid:");
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(51, 0, 51));
         jLabel2.setText("Courses Offered :");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -90,22 +107,21 @@ public class ViewProfessor extends javax.swing.JPanel {
                 "Course Id", "Price", "Duration", "Credits", "Time"
             }
         ));
+        jTable1.setRowHeight(20);
+        jTable1.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane1.setViewportView(jTable1);
 
-        lblModel1.setFont(new java.awt.Font("Tahoma", 0, 13)); // NOI18N
+        lblModel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        lblModel1.setForeground(new java.awt.Color(51, 0, 51));
         lblModel1.setText("Professor Id :");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addComponent(btnBack)
-                        .addGap(163, 163, 163)
-                        .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(48, 48, 48)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -127,20 +143,17 @@ public class ViewProfessor extends javax.swing.JPanel {
                                     .addComponent(txtSeats2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 613, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel2))))
+                            .addComponent(jLabel2)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(btnBack)))
                 .addContainerGap(68, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(32, 32, 32)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(btnBack)))
-                .addGap(24, 24, 24)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -148,11 +161,11 @@ public class ViewProfessor extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtModel, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblModel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(12, 12, 12)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtYear, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblManuYear, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblSeats, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtSeats, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -164,11 +177,13 @@ public class ViewProfessor extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblSeats2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtSeats2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnBack)
+                .addContainerGap(59, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -176,6 +191,7 @@ public class ViewProfessor extends javax.swing.JPanel {
         userProcessContainer.remove(this);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
+//        this.jTable1.getTableHeader().setBackground(Color.BLACK);
     }//GEN-LAST:event_btnBackActionPerformed
 
 

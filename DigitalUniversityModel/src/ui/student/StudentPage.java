@@ -59,17 +59,30 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel30 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+
+        btnBack1.setBackground(new java.awt.Color(51, 0, 51));
+        btnBack1.setForeground(new java.awt.Color(255, 255, 255));
         btnBack1.setText("<< Back");
+        btnBack1.setBorderPainted(false);
         btnBack1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBack1ActionPerformed(evt);
             }
         });
 
-        jLabel13.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jLabel13.setBackground(new java.awt.Color(51, 0, 51));
+        jLabel13.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel13.setText("Student Details");
+        jLabel13.setOpaque(true);
 
+        jButton6.setBackground(new java.awt.Color(51, 0, 51));
+        jButton6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("Pay Course Fee");
+        jButton6.setBorderPainted(false);
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
@@ -79,14 +92,19 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel14.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
         jLabel14.setText("Dimple Patel");
 
+        jButton7.setBackground(new java.awt.Color(51, 0, 51));
+        jButton7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
         jButton7.setText("Register for a Course");
+        jButton7.setBorderPainted(false);
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton7ActionPerformed(evt);
             }
         });
 
-        jLabel15.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(51, 0, 51));
         jLabel15.setText("Degree Name :");
 
         jLabel16.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
@@ -95,10 +113,12 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel17.setText("patel.dim@northeastern.edu");
 
-        jLabel18.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(51, 0, 51));
         jLabel18.setText("Email :");
 
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(51, 0, 51));
         jLabel19.setText("Courses Taken :");
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
@@ -113,42 +133,54 @@ public class StudentPage extends javax.swing.JPanel {
                 "Course Id", "Course Name", "Professor Id", "Professor Name", "Fees Paid", "Grades"
             }
         ));
+        jTable2.setRowHeight(20);
+        jTable2.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane2.setViewportView(jTable2);
 
         jLabel20.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
         jLabel20.setText("00292523");
 
-        jLabel21.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(51, 0, 51));
         jLabel21.setText("Degree Earned :");
 
-        jLabel22.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(51, 0, 51));
         jLabel22.setText("ID :");
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel23.setText("No");
 
-        jLabel24.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(51, 0, 51));
         jLabel24.setText("Name :");
 
-        jLabel25.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(51, 0, 51));
         jLabel25.setText("Degree Requirement :");
 
         jLabel26.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel26.setText("32 Credits");
 
-        jLabel27.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(51, 0, 51));
         jLabel27.setText("Total Credits Completed :");
 
         jLabel28.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel28.setText("8 Credits");
 
-        jLabel29.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(51, 0, 51));
         jLabel29.setText("Current GPA :");
 
         jLabel30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel30.setText("3.00");
 
+        jButton1.setBackground(new java.awt.Color(51, 0, 51));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Request for Degree Approval");
+        jButton1.setBorderPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -159,25 +191,26 @@ public class StudentPage extends javax.swing.JPanel {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(22, 22, 22)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel19)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jLabel19)
+                        .addGap(9, 9, 9)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel24)
+                            .addComponent(jLabel22)
+                            .addComponent(jLabel15))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel17)
+                            .addComponent(jLabel16)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel20))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(9, 9, 9)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel18)
-                                    .addComponent(jLabel24)
-                                    .addComponent(jLabel22)
-                                    .addComponent(jLabel15))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel17)
-                                    .addComponent(jLabel16)
-                                    .addComponent(jLabel14)
-                                    .addComponent(jLabel20))
                                 .addGap(66, 66, 66)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -188,39 +221,38 @@ public class StudentPage extends javax.swing.JPanel {
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel21)
-                                            .addComponent(jLabel27)
-                                            .addComponent(jLabel29))
+                                            .addComponent(jLabel27))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel28)
-                                            .addComponent(jLabel30)
                                             .addComponent(jLabel23)))))
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 607, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jButton7)
-                                .addGap(83, 83, 83)
-                                .addComponent(jButton1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton6)
-                                .addGap(29, 29, 29))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel29)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel30)
+                                .addGap(36, 36, 36))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnBack1)
-                        .addGap(206, 206, 206)
-                        .addComponent(jLabel13)))
-                .addContainerGap(92, Short.MAX_VALUE))
+                        .addGap(16, 16, 16)
+                        .addComponent(jButton7)
+                        .addGap(57, 57, 57)
+                        .addComponent(jButton1)
+                        .addGap(59, 59, 59)
+                        .addComponent(jButton6))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(3, 3, 3)
+                        .addComponent(btnBack1)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(0, 22, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 667, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(74, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(btnBack1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(25, 25, 25)
-                        .addComponent(jLabel13)))
-                .addGap(41, 41, 41)
+                .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -243,27 +275,29 @@ public class StudentPage extends javax.swing.JPanel {
                             .addComponent(jLabel25)
                             .addComponent(jLabel26))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel27)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel27, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel28))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel21)
                             .addComponent(jLabel23))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel29)
                             .addComponent(jLabel30))))
-                .addGap(65, 65, 65)
+                .addGap(41, 41, 41)
                 .addComponent(jLabel19)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(31, 31, 31)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton7)
-                    .addComponent(jButton6)
-                    .addComponent(jButton1))
-                .addContainerGap(163, Short.MAX_VALUE))
+                    .addComponent(jButton1)
+                    .addComponent(jButton6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 119, Short.MAX_VALUE)
+                .addComponent(btnBack1)
+                .addGap(51, 51, 51))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
