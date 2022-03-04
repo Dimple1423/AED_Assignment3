@@ -39,6 +39,7 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         btnBack.setText("<< Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -73,7 +74,14 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jButton1.setText("Approve");
+        jButton1.setText("Reject");
+
+        jButton2.setText("Approve");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -95,6 +103,8 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
                 .addContainerGap(46, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton2)
+                .addGap(32, 32, 32)
                 .addComponent(jButton1)
                 .addGap(59, 59, 59))
         );
@@ -111,11 +121,17 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
                     .addComponent(jLabel3))
                 .addGap(39, 39, 39)
                 .addComponent(jLabel4)
-                .addGap(31, 31, 31)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37)
-                .addComponent(jButton1)
-                .addContainerGap(229, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 172, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton2)
+                            .addComponent(jButton1))
+                        .addGap(238, 238, 238))))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -125,10 +141,15 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_btnBackActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnBack;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
