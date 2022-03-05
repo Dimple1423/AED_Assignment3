@@ -168,7 +168,7 @@ public class CertificationAuthorityPage extends javax.swing.JPanel {
                     .addComponent(jButton1))
                 .addGap(101, 101, 101)
                 .addComponent(btnBack)
-                .addGap(95, 95, 95))
+                .addContainerGap(95, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton1, jButton2});
