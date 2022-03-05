@@ -50,21 +50,29 @@ public class StudentCatalog extends javax.swing.JPanel {
         jLabel1.setText("Student Catalog");
         jLabel1.setOpaque(true);
 
+        jTable1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null}
+                {"2192290", "Vishesh Rawat", "rawat.v@northeastern.edu"},
+                {"2191782", "Sai Swarna Raghuraman", "saiswarna.r@northeastern.edu"},
+                {"1099996", "Deep Anand Vaidya", "vaidya.de@northeastern.edu"},
+                {"2194664", "Noordeep Gill", "gill.no@northeastern.edu"},
+                {"2122149", "Sethu Surya Teja", "pagolu.s@northeastern.edu"},
+                {"2921511", "Vivek Mannava", "mannava.v@northeastern.edu"},
+                {"2929388", "Sumeet Sunil Deshpande", "deshpande.su@northeastern.edu"},
+                {"2928176", "Yash Firke", "firke.y@northeastern.edu"},
+                {"2929680", "Pavithra Ramkumar", "ramkumar.p@northeastern.edu"},
+                {"2921619", "Likhitha Baireddy", "baireddy.l@northeastern.edu"},
+                {"2924946", "Rutuja Ghogare", "ghogare.r@northeastern.edu"},
+                {"2957343", "Gaurav Thorat", "thorat.ga@northeastern.edu"},
+                {"2928427", "Sai Srujan Penta", "Penta.s@northeastern.edu"},
+                {"2964461", "Aishwarya Wagdarkar", "wagdarkar.a@northeastern.edu"}
             },
             new String [] {
                 "Id", "Name", "Email"
             }
         ));
+        jTable1.setRowHeight(20);
         jTable1.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane1.setViewportView(jTable1);
 
@@ -126,18 +134,19 @@ public class StudentCatalog extends javax.swing.JPanel {
                         .addGap(28, 28, 28)
                         .addComponent(jButton1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(86, 86, 86)
+                        .addGap(70, 70, 70)
+                        .addComponent(jLabel2))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(106, 106, 106)
                         .addComponent(jButton3)
                         .addGap(55, 55, 55)
                         .addComponent(jButton4)
                         .addGap(40, 40, 40)
                         .addComponent(jButton5))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(70, 70, 70)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel2)
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 567, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(209, Short.MAX_VALUE))
+                        .addGap(42, 42, 42)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 647, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(157, Short.MAX_VALUE))
         );
 
         jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jButton3, jButton4, jButton5});
@@ -148,14 +157,14 @@ public class StudentCatalog extends javax.swing.JPanel {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(41, 41, 41)
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(8, 8, 8)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton3)
                     .addComponent(jButton4)
                     .addComponent(jButton5))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 162, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
                 .addComponent(jButton1)
                 .addGap(55, 55, 55))
         );

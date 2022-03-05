@@ -26,41 +26,46 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
           <Group type="102" alignment="0" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="lblManuYear" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblModel" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblModel1" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="txtModel1" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
-                          <Component id="txtYear" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
-                          <Component id="txtModel" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="lblManuYear" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblModel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblModel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtModel1" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                                  <Component id="txtYear" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                                  <Component id="txtModel" linkSize="1" alignment="0" min="-2" pref="161" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblManuYear2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtYear2" linkSize="1" min="-2" pref="161" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="lblManuYear3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txtYear3" linkSize="1" min="-2" pref="161" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
+                      <EmptySpace pref="51" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="lblManuYear1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="txtYear1" linkSize="1" min="-2" pref="161" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <Component id="lblManuYear2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="txtYear2" linkSize="1" min="-2" pref="161" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Component id="lblManuYear3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="txtYear3" linkSize="1" min="-2" pref="161" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="txtYear1" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="63" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="1" attributes="0">
@@ -154,7 +159,7 @@
               <Component id="jScrollPane2" min="-2" pref="120" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace pref="28" max="32767" attributes="0"/>
           </Group>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
@@ -195,6 +200,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtYear">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Rawat"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblModel">
       <Properties>
@@ -208,6 +219,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtModel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vishwesh"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
@@ -236,6 +253,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtModel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2192290"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -249,6 +272,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtSeats3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3.72"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblSeats3">
       <Properties>
@@ -262,6 +291,12 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtSeats4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="32"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblSeats4">
       <Properties>
@@ -383,8 +418,20 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtYear1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="rawat.v@northeasterm.edu"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtYear2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Masters in Data Analytics"/>
+      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="lblManuYear2">
       <Properties>
@@ -409,6 +456,15 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtYear3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Yes"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtYear3ActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

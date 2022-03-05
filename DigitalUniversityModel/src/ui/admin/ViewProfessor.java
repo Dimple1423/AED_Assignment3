@@ -75,9 +75,23 @@ public class ViewProfessor extends javax.swing.JPanel {
         lblManuYear.setForeground(new java.awt.Color(51, 0, 51));
         lblManuYear.setText("Last Name:");
 
+        txtYear.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtYear.setText("Bugrara");
+
+        txtSeats.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtSeats.setText("kal.bug@northeastern.edu");
+
         lblModel.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblModel.setForeground(new java.awt.Color(51, 0, 51));
         lblModel.setText("First Name :");
+
+        txtModel.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtModel.setText("Khaled");
+        txtModel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtModelActionPerformed(evt);
+            }
+        });
 
         lblSeats.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblSeats.setForeground(new java.awt.Color(51, 0, 51));
@@ -87,18 +101,25 @@ public class ViewProfessor extends javax.swing.JPanel {
         lblSeats1.setForeground(new java.awt.Color(51, 0, 51));
         lblSeats1.setText("Reputation Index:");
 
+        txtSeats1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtSeats1.setText("5");
+
         lblSeats2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblSeats2.setForeground(new java.awt.Color(51, 0, 51));
         lblSeats2.setText("Subscription Paid:");
+
+        txtSeats2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtSeats2.setText("Yes");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 0, 51));
         jLabel2.setText("Courses Offered :");
 
+        jTable1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
+                {"AE534", "$500", "4 month", "4", "4 hours"},
+                {"TS865", "$250", "4 month", "4", "4 hours"},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null}
@@ -110,6 +131,14 @@ public class ViewProfessor extends javax.swing.JPanel {
         jTable1.setRowHeight(20);
         jTable1.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane1.setViewportView(jTable1);
+
+        txtModel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        txtModel1.setText("357473");
+        txtModel1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtModel1ActionPerformed(evt);
+            }
+        });
 
         lblModel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lblModel1.setForeground(new java.awt.Color(51, 0, 51));
@@ -137,11 +166,11 @@ public class ViewProfessor extends javax.swing.JPanel {
                                 .addGap(31, 31, 31)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txtYear, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtSeats, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtModel, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtSeats1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(txtSeats2, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(txtModel1, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txtSeats, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 613, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel2)))
                     .addGroup(layout.createSequentialGroup()
@@ -149,6 +178,9 @@ public class ViewProfessor extends javax.swing.JPanel {
                         .addComponent(btnBack)))
                 .addContainerGap(68, Short.MAX_VALUE))
         );
+
+        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtModel, txtModel1, txtSeats, txtSeats1, txtSeats2, txtYear});
+
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
@@ -183,7 +215,7 @@ public class ViewProfessor extends javax.swing.JPanel {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnBack)
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addContainerGap(61, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -193,6 +225,14 @@ public class ViewProfessor extends javax.swing.JPanel {
         layout.previous(userProcessContainer);
 //        this.jTable1.getTableHeader().setBackground(Color.BLACK);
     }//GEN-LAST:event_btnBackActionPerformed
+
+    private void txtModel1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtModel1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtModel1ActionPerformed
+
+    private void txtModelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtModelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtModelActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -54,15 +54,16 @@ public class CourseCatalog extends javax.swing.JPanel {
         jLabel1.setText("Course Catalog");
         jLabel1.setOpaque(true);
 
+        jTable1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null},
-                {null, null}
+                {"BD432", "Big Data Analytics"},
+                {"AE534", "Application Engineering and Development"},
+                {"AC756", "Accounting"},
+                {"PDA476", "Predictive Data Analytics "},
+                {"TS865", "Technology Strategy"},
+                {"DM255", "Database Management"},
+                {"WD654", "Weg Designing"}
             },
             new String [] {
                 "Course Id", "Course Name"
