@@ -61,11 +61,12 @@ public class EnrolledStudent extends javax.swing.JPanel {
             }
         });
 
+        jTable1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
+                {"2192290", "Vishwesh Rawat", "rawat.v@northeastern.e", "Yes", "A"},
+                {"2191782", "Sai Swarna", "saiswarna.r@northeastern.edu", "Yes", "B"},
+                {"2964461", "Aishwarya Wagdarkar", "wagdarkar.a@northeastern.edu", "No", " -"},
                 {null, null, null, null, null},
                 {null, null, null, null, null}
             },
@@ -76,6 +77,13 @@ public class EnrolledStudent extends javax.swing.JPanel {
         jTable1.setRowHeight(20);
         jTable1.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane1.setViewportView(jTable1);
+        if (jTable1.getColumnModel().getColumnCount() > 0) {
+            jTable1.getColumnModel().getColumn(0).setPreferredWidth(50);
+            jTable1.getColumnModel().getColumn(1).setPreferredWidth(150);
+            jTable1.getColumnModel().getColumn(2).setPreferredWidth(200);
+            jTable1.getColumnModel().getColumn(3).setPreferredWidth(50);
+            jTable1.getColumnModel().getColumn(4).setPreferredWidth(30);
+        }
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 0, 51));

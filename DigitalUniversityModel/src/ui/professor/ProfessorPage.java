@@ -92,10 +92,10 @@ public class ProfessorPage extends javax.swing.JPanel {
         jLabel6.setText("Reputation Index :");
 
         jLabel7.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
-        jLabel7.setText("1");
+        jLabel7.setText("5");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel8.setText("kmb@coe.neu.edu");
+        jLabel8.setText("kal.bug@northeastern.edu");
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(51, 0, 51));
@@ -105,11 +105,11 @@ public class ProfessorPage extends javax.swing.JPanel {
         jLabel10.setForeground(new java.awt.Color(51, 0, 51));
         jLabel10.setText("Courses Offered :");
 
+        jTable1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
+                {"AE534", "$500", "4 month", "4", "4 hours"},
+                {"TS865", "$250", "4 month", "4", "4 hours"},
                 {null, null, null, null, null},
                 {null, null, null, null, null}
             },
@@ -256,8 +256,8 @@ public class ProfessorPage extends javax.swing.JPanel {
                 .addGap(28, 28, 28)
                 .addComponent(jLabel10)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(40, 40, 40)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2)
                     .addComponent(jButton3)

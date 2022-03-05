@@ -173,6 +173,7 @@ public class Degree extends javax.swing.JPanel {
             }
         ));
         jTable2.setRowHeight(20);
+        jTable2.setSelectionBackground(new java.awt.Color(51, 0, 51));
         jScrollPane2.setViewportView(jTable2);
 
         jButton6.setBackground(new java.awt.Color(51, 0, 51));

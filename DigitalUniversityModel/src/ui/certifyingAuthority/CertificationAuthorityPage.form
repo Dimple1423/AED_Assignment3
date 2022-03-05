@@ -21,35 +21,43 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jButton2" linkSize="1" min="-2" pref="95" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton1" linkSize="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane1" min="-2" pref="613" max="-2" attributes="0"/>
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jButton2" linkSize="1" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton1" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="442" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                       </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
+                  <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="46" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -64,8 +72,8 @@
               <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="132" max="32767" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="127" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton2" linkSize="2" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="jButton1" linkSize="2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -125,7 +133,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="14" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="XYZ"/>
+        <Property name="text" type="java.lang.String" value="Texas Certification Authority"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
@@ -150,36 +158,66 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="5" rowCount="5">
-                <Column editable="true" title="Student Id" type="java.lang.Object"/>
-                <Column editable="true" title="Degree" type="java.lang.Object"/>
-                <Column editable="true" title="Degree Requirement" type="java.lang.Object"/>
-                <Column editable="true" title="Students total credits" type="java.lang.Object"/>
-                <Column editable="true" title="Students GPA" type="java.lang.Object"/>
+                <Column editable="true" title="Student Id" type="java.lang.Object">
+                  <Data value="2192290"/>
+                  <Data value="2191782"/>
+                  <Data value="2194664"/>
+                  <Data value="2122149"/>
+                  <Data value="2921511"/>
+                </Column>
+                <Column editable="true" title="Degree" type="java.lang.Object">
+                  <Data value="Masters in Data Analytics"/>
+                  <Data value="Masters in Information Systems"/>
+                  <Data value="Masters in Engineering Management"/>
+                  <Data value="Masters in Data Analytics"/>
+                  <Data value="Masters in Information Systems"/>
+                </Column>
+                <Column editable="true" title="Degree Requirement" type="java.lang.Object">
+                  <Data value="32 Credits, GPA: 3.00, Course duration 18month "/>
+                  <Data value="32 Credits, GPA: 3.50, Course duration 18month"/>
+                  <Data value="32 Credits, GPA: 2.40, Course duration 18month "/>
+                  <Data value="32 Credits, GPA: 3.00, Course duration 18month "/>
+                  <Data value="32 Credits, GPA: 3.50, Course duration 18month"/>
+                </Column>
+                <Column editable="true" title="Students total credits" type="java.lang.Object">
+                  <Data value="32"/>
+                  <Data value="32"/>
+                  <Data value="32"/>
+                  <Data value="32"/>
+                  <Data value="32"/>
+                </Column>
+                <Column editable="true" title="Students GPA" type="java.lang.Object">
+                  <Data value="3.72"/>
+                  <Data value="3.50"/>
+                  <Data value="3.00"/>
+                  <Data value="3.00"/>
+                  <Data value="2.90"/>
+                </Column>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
               <TableColumnModel selectionModel="0">
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="50" resizable="true">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="150" resizable="true">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="230" resizable="true">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="100" resizable="true">
                   <Title/>
                   <Editor/>
                   <Renderer/>
                 </Column>
-                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="70" resizable="true">
                   <Title/>
                   <Editor/>
                   <Renderer/>

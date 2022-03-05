@@ -138,12 +138,72 @@
           <Properties>
             <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
               <Table columnCount="6" rowCount="9">
-                <Column editable="true" title="Course Id" type="java.lang.Object"/>
-                <Column editable="true" title="Course Name" type="java.lang.Object"/>
-                <Column editable="true" title="Professor Id" type="java.lang.Object"/>
-                <Column editable="true" title="Professor Name" type="java.lang.Object"/>
-                <Column editable="true" title="Reputation Index" type="java.lang.Object"/>
-                <Column editable="true" title="Credits" type="java.lang.Object"/>
+                <Column editable="true" title="Course Id" type="java.lang.Object">
+                  <Data value="BD432"/>
+                  <Data value="AE534"/>
+                  <Data value="AC756"/>
+                  <Data value="PDA476"/>
+                  <Data value="TS865"/>
+                  <Data value="DM255"/>
+                  <Data value="DM255"/>
+                  <Data value="WD654"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Course Name" type="java.lang.Object">
+                  <Data value="Big Data Analytics"/>
+                  <Data value="Application Engineering and Development"/>
+                  <Data value="Accounting"/>
+                  <Data value="Predictive Data Analytics "/>
+                  <Data value="Technology Strategy"/>
+                  <Data value="Database Management"/>
+                  <Data value="Database Management"/>
+                  <Data value="Weg Designing"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Professor Id" type="java.lang.Object">
+                  <Data value="357474"/>
+                  <Data value="357473"/>
+                  <Data value="357475"/>
+                  <Data value="357478"/>
+                  <Data value="357473"/>
+                  <Data value="357474"/>
+                  <Data value="357476"/>
+                  <Data value="357477"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Professor Name" type="java.lang.Object">
+                  <Data value="Emad Aboelela"/>
+                  <Data value="Khaled Bugrara"/>
+                  <Data value="Gregory D. Abowd"/>
+                  <Data value="Christopher Amato"/>
+                  <Data value="Khaled Bugrara"/>
+                  <Data value="Emad Aboelela"/>
+                  <Data value="Ali Abur"/>
+                  <Data value="Brain Alerecht"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Reputation Index" type="java.lang.Object">
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="4"/>
+                  <Data value="5"/>
+                  <Data value="5"/>
+                  <Data value="4"/>
+                  <Data value="3"/>
+                  <Data value="5"/>
+                  <Data value="null"/>
+                </Column>
+                <Column editable="true" title="Credits" type="java.lang.Object">
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="4"/>
+                  <Data value="null"/>
+                </Column>
               </Table>
             </Property>
             <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">

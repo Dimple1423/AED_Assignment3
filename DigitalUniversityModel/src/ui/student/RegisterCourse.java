@@ -71,14 +71,14 @@ public class RegisterCourse extends javax.swing.JPanel {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
+                {"BD432", "Big Data Analytics", "357474", "Emad Aboelela", "4", "4"},
+                {"AE534", "Application Engineering and Development", "357473", "Khaled Bugrara", "5", "4"},
+                {"AC756", "Accounting", "357475", "Gregory D. Abowd", "4", "4"},
+                {"PDA476", "Predictive Data Analytics ", "357478", "Christopher Amato", "5", "4"},
+                {"TS865", "Technology Strategy", "357473", "Khaled Bugrara", "5", "4"},
+                {"DM255", "Database Management", "357474", "Emad Aboelela", "4", "4"},
+                {"DM255", "Database Management", "357476", "Ali Abur", "3", "4"},
+                {"WD654", "Weg Designing", "357477", "Brain Alerecht", "5", "4"},
                 {null, null, null, null, null, null}
             },
             new String [] {

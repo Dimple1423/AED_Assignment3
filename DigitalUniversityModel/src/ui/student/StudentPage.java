@@ -92,7 +92,7 @@ public class StudentPage extends javax.swing.JPanel {
         });
 
         jLabel14.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
-        jLabel14.setText("Dimple Patel");
+        jLabel14.setText("Vishwesh Rawat");
 
         jButton7.setBackground(new java.awt.Color(51, 0, 51));
         jButton7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -110,10 +110,10 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel15.setText("Degree Name :");
 
         jLabel16.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
-        jLabel16.setText("MS in Information System");
+        jLabel16.setText("MS in Data Analytics");
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel17.setText("patel.dim@northeastern.edu");
+        jLabel17.setText("rawat.v@northeastern.edu");
 
         jLabel18.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(51, 0, 51));
@@ -125,8 +125,8 @@ public class StudentPage extends javax.swing.JPanel {
 
         jTable2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null},
-                {null, null, null, null, null, null},
+                {"AE534", "Application Engineering and Development", "357473", "Khaled Bugrara", "Yes", "A"},
+                {"DM255", "Database Management", "357474", "Emad Aboelela", "Yes", "A+"},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null},
                 {null, null, null, null, null, null}
@@ -140,7 +140,7 @@ public class StudentPage extends javax.swing.JPanel {
         jScrollPane2.setViewportView(jTable2);
 
         jLabel20.setFont(new java.awt.Font("Lucida Grande", 0, 14)); // NOI18N
-        jLabel20.setText("00292523");
+        jLabel20.setText("002192290");
 
         jLabel21.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(51, 0, 51));
@@ -151,7 +151,7 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel22.setText("ID :");
 
         jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel23.setText("No");
+        jLabel23.setText("Yes");
 
         jLabel24.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         jLabel24.setForeground(new java.awt.Color(51, 0, 51));
@@ -169,14 +169,14 @@ public class StudentPage extends javax.swing.JPanel {
         jLabel27.setText("Total Credits Completed :");
 
         jLabel28.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel28.setText("8 Credits");
+        jLabel28.setText("32 Credits");
 
         jLabel29.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         jLabel29.setForeground(new java.awt.Color(51, 0, 51));
         jLabel29.setText("Current GPA :");
 
         jLabel30.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel30.setText("3.00");
+        jLabel30.setText("3.72");
 
         jButton1.setBackground(new java.awt.Color(51, 0, 51));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -317,8 +317,8 @@ public class StudentPage extends javax.swing.JPanel {
                 .addGap(41, 41, 41)
                 .addComponent(jLabel19)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton7)
                     .addComponent(jButton1)

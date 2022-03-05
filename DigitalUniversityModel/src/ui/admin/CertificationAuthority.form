@@ -45,6 +45,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -62,13 +63,12 @@
                           <Component id="jButton5" linkSize="1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="217" max="-2" attributes="0"/>
-                          <Component id="jScrollPane1" min="-2" pref="174" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="228" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="297" max="32767" attributes="0"/>
               </Group>
-              <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -77,9 +77,9 @@
                   <Component id="jLabel1" min="-2" pref="56" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" min="-2" pref="169" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="130" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -117,9 +117,18 @@
           <SubComponents>
             <Component class="javax.swing.JTable" name="jTable1">
               <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="0"/>
+                </Property>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                  <Table columnCount="1" rowCount="7">
-                    <Column editable="true" title="Authority Name" type="java.lang.Object"/>
+                  <Table columnCount="1" rowCount="5">
+                    <Column editable="true" title="Authority Name" type="java.lang.Object">
+                      <Data value="Boston Certification Authority"/>
+                      <Data value="Illinois Certification Authority"/>
+                      <Data value="Texas Certification Authority"/>
+                      <Data value="North Dakota Certification Authority"/>
+                      <Data value="Washington Certification Authority"/>
+                    </Column>
                   </Table>
                 </Property>
                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -132,6 +141,9 @@
                   </TableColumnModel>
                 </Property>
                 <Property name="rowHeight" type="int" value="20"/>
+                <Property name="selectionBackground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="33" type="rgb"/>
+                </Property>
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>

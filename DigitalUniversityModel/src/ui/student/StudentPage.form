@@ -175,8 +175,8 @@
                   <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
                   <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jScrollPane2" min="-2" pref="132" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="131" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -247,7 +247,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Grande" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Dimple Patel"/>
+            <Property name="text" type="java.lang.String" value="Vishwesh Rawat"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton7">
@@ -284,7 +284,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Grande" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="MS in Information System"/>
+            <Property name="text" type="java.lang.String" value="MS in Data Analytics"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel17">
@@ -292,7 +292,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="patel.dim@northeastern.edu"/>
+            <Property name="text" type="java.lang.String" value="rawat.v@northeastern.edu"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel18">
@@ -328,12 +328,48 @@
               <Properties>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                   <Table columnCount="6" rowCount="5">
-                    <Column editable="true" title="Course Id" type="java.lang.Object"/>
-                    <Column editable="true" title="Course Name" type="java.lang.Object"/>
-                    <Column editable="true" title="Professor Id" type="java.lang.Object"/>
-                    <Column editable="true" title="Professor Name" type="java.lang.Object"/>
-                    <Column editable="true" title="Fees Paid" type="java.lang.Object"/>
-                    <Column editable="true" title="Grades" type="java.lang.Object"/>
+                    <Column editable="true" title="Course Id" type="java.lang.Object">
+                      <Data value="AE534"/>
+                      <Data value="DM255"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Course Name" type="java.lang.Object">
+                      <Data value="Application Engineering and Development"/>
+                      <Data value="Database Management"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Professor Id" type="java.lang.Object">
+                      <Data value="357473"/>
+                      <Data value="357474"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Professor Name" type="java.lang.Object">
+                      <Data value="Khaled Bugrara"/>
+                      <Data value="Emad Aboelela"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Fees Paid" type="java.lang.Object">
+                      <Data value="Yes"/>
+                      <Data value="Yes"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
+                    <Column editable="true" title="Grades" type="java.lang.Object">
+                      <Data value="A"/>
+                      <Data value="A+"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                      <Data value="null"/>
+                    </Column>
                   </Table>
                 </Property>
                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -386,7 +422,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Grande" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="00292523"/>
+            <Property name="text" type="java.lang.String" value="002192290"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel21">
@@ -416,7 +452,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="No"/>
+            <Property name="text" type="java.lang.String" value="Yes"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel24">
@@ -465,7 +501,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="8 Credits"/>
+            <Property name="text" type="java.lang.String" value="32 Credits"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel29">
@@ -484,7 +520,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="14" style="0"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="3.00"/>
+            <Property name="text" type="java.lang.String" value="3.72"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButton1">
